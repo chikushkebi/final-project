@@ -1,0 +1,10 @@
+@import "reset";
+.container {
+  max-width: 1240px;
+  width: 95%;
+  margin: 0 auto;
+}
+@import "variables";
+@import "mixins";
+@import "style";
+@import "placeholders";
