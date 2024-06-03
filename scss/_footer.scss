@@ -22,7 +22,7 @@ footer {
     .logos {
       display: flex;
       align-items: center;
-      gap: 11px;
+      gap: 4px;
       i {
         font-size: 40px;
         color: #222222;
@@ -61,5 +61,22 @@ footer {
         align-items: flex-end;
       }
     }
+  }
+  h2 {
+    color: #193947;
+    font-family: $RocknRoll;
+    font-weight: bolder;
+    font-size: 48px;
+    margin-top: 28px;
+    line-height: normal;
+    @media (max-width: 800px) {
+      font-size: 30px;
+    }
+    @media (max-width: 600px) {
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 800px) {
+    padding-bottom: 55px;
   }
 }

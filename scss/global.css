@@ -310,7 +310,7 @@ footer .flexdiv3 .logos {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 11px;
+  gap: 4px;
 }
 footer .flexdiv3 .logos i {
   font-size: 40px;
@@ -368,9 +368,33 @@ footer .flexdiv3 ul li a:hover {
             align-items: flex-end;
   }
 }
+footer h2 {
+  color: #193947;
+  font-family: "RocknRoll One", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  margin-top: 28px;
+  line-height: normal;
+}
+@media (max-width: 800px) {
+  footer h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 600px) {
+  footer h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  footer {
+    padding-bottom: 55px;
+  }
+}
 
 .s-1 {
   margin-top: 168px;
+  margin-bottom: 72px;
 }
 .s-1 .flexdiv2 {
   display: -webkit-box;
@@ -445,7 +469,7 @@ footer .flexdiv3 ul li a:hover {
 }
 
 .s-2 {
-  margin-top: 72px;
+  margin-bottom: 72px;
 }
 .s-2 h1 {
   font-size: 48px;
@@ -457,11 +481,13 @@ footer .flexdiv3 ul li a:hover {
 @media (max-width: 863px) {
   .s-2 h1 {
     font-size: 35px;
+    margin-bottom: 40px;
   }
 }
 @media (max-width: 494px) {
   .s-2 h1 {
     font-size: 20px;
+    margin-bottom: 20px;
   }
 }
 .s-2 .wrapper1 {
@@ -476,84 +502,63 @@ footer .flexdiv3 ul li a:hover {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  gap: 19px;
+  row-gap: 72px;
 }
-.s-2 .wrapper1 .card1 {
-  padding-bottom: 16px;
+.s-2 .wrapper1 .card {
+  width: 24%;
+  height: 0;
+  padding-bottom: 24%;
 }
-.s-2 .wrapper1 .card1 img {
-  width: 295px;
-  height: 295px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-bottom: 16px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-@media (max-width: 1303px) {
-  .s-2 .wrapper1 .card1 img {
-    width: 500px;
-    height: 500px;
+@media (max-width: 780px) {
+  .s-2 .wrapper1 .card {
+    width: 47%;
+    padding-bottom: 47%;
   }
 }
-@media (max-width: 1073px) {
-  .s-2 .wrapper1 .card1 img {
-    width: 400px;
-    height: 400px;
-  }
+.s-2 .wrapper1 .card .card-img1,
+.s-2 .wrapper1 .card .card-img2,
+.s-2 .wrapper1 .card .card-img3,
+.s-2 .wrapper1 .card .card-img4 {
+  width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-@media (max-width: 863px) {
-  .s-2 .wrapper1 .card1 img {
-    width: 300px;
-    height: 300px;
-  }
+.s-2 .wrapper1 .card .card-img1 {
+  background-image: url(../images/voyager.jpg);
 }
-@media (max-width: 652px) {
-  .s-2 .wrapper1 .card1 img {
-    width: 225px;
-    height: 225px;
-  }
+.s-2 .wrapper1 .card .card-img2 {
+  background-image: url(../images/black_hole2.jpg);
 }
-@media (max-width: 494px) {
-  .s-2 .wrapper1 .card1 img {
-    width: 150px;
-    height: 150px;
-  }
+.s-2 .wrapper1 .card .card-img3 {
+  background-image: url(../images/aurora.jpg);
 }
-.s-2 .wrapper1 .card1 h2 {
+.s-2 .wrapper1 .card .card-img4 {
+  background-image: url(../images/dark_matter.jpg);
+}
+.s-2 .wrapper1 .card h2 {
+  text-align: center;
+  margin-top: 16px;
+}
+.s-2 .wrapper1 .card h2 a {
   font-size: 24px;
   font-family: "RocknRoll One", sans-serif;
-  text-align: center;
-  font-weight: bold;
+  font-weight: 300;
   color: #222222;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
-@media (max-width: 1303px) {
-  .s-2 .wrapper1 .card1 h2 {
-    font-size: 50px;
-  }
-}
-@media (max-width: 1073px) {
-  .s-2 .wrapper1 .card1 h2 {
-    font-size: 40px;
-  }
-}
 @media (max-width: 863px) {
-  .s-2 .wrapper1 .card1 h2 {
-    font-size: 30px;
-  }
-}
-@media (max-width: 652px) {
-  .s-2 .wrapper1 .card1 h2 {
-    font-size: 25px;
+  .s-2 .wrapper1 .card h2 a {
+    font-size: 20px;
   }
 }
 @media (max-width: 494px) {
-  .s-2 .wrapper1 .card1 h2 {
+  .s-2 .wrapper1 .card h2 a {
     font-size: 16px;
   }
 }
-.s-2 .wrapper1 .card1 h2:hover {
-  color: #4E4E4E;
+.s-2 .wrapper1 .card h2 a:hover {
+  color: #4e4e4e;
 }/*# sourceMappingURL=global.css.map */

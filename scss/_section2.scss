@@ -1,0 +1,76 @@
+.s-2 {
+  margin-bottom: 72px;
+  h1 {
+    font-size: 48px;
+    font-family: $RocknRoll;
+    font-weight: bold;
+    margin-bottom: 55px;
+    color: #222222;
+    @media (max-width: 863px) {
+      font-size: 35px;
+      margin-bottom: 40px;
+    }
+    @media (max-width: 494px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+  .wrapper1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    .card {
+      width: 24%;
+      height: 0;
+      padding-bottom: 24%;
+      @media (max-width: 780px) {
+        width: 47%;
+        padding-bottom: 47%;
+      }
+      .card-img1,
+      .card-img2,
+      .card-img3,
+      .card-img4 {
+        width: 100%;
+        padding-top: 100%;
+        // border: 2px solid red;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .card-img1 {
+        @include imgdiv;
+      }
+      .card-img2 {
+        @include imgdiv($bckg-img: url(../images/black_hole2.jpg));
+      }
+      .card-img3 {
+        @include imgdiv($bckg-img: url(../images/aurora.jpg));
+      }
+      .card-img4 {
+        @include imgdiv($bckg-img: url(../images/dark_matter.jpg));
+      }
+      h2 {
+        text-align: center;
+        margin-top: 16px;
+        a {
+          font-size: 24px;
+          font-family: $RocknRoll;
+          font-weight: 300;
+          color: #222222;
+          transition: 0.5s;
+          @media (max-width: 863px) {
+            font-size: 20px;
+          }
+          @media (max-width: 494px) {
+            font-size: 16px;
+          }
+        }
+      }
+      h2 a:hover {
+        color: #4e4e4e;
+      }
+    }
+  }
+}

@@ -1,0 +1,3 @@
+@mixin imgdiv($bckg-img: url(../images/voyager.jpg)) {
+  background-image: $bckg-img;
+}
