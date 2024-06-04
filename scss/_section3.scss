@@ -1,0 +1,89 @@
+.s-3 {
+  margin-bottom: 72px;
+  .container {
+    h1 {
+      font-size: 48px;
+      font-family: $RocknRoll;
+      font-weight: bold;
+      margin-bottom: 12px;
+      color: #222222;
+      @media (max-width: 863px) {
+        font-size: 40px;
+        margin-bottom: 5px;
+      }
+      @media (max-width: 494px) {
+        font-size: 20px;
+        margin-bottom: -25px;
+      }
+    }
+    .wrapper {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      row-gap: 50px;
+      .card {
+        margin-top: 43px;
+        width: 24%;
+        height: 0;
+        padding-bottom: 32%;
+        border: 2px solid red;
+        @media (max-width: 950px) {
+          width: 32%;
+          padding-bottom: 43%;
+        }
+        @media (max-width: 630px) {
+          width: 47%;
+          padding-bottom: 63%;
+        }
+        div {
+          width: 100%;
+          padding-top: 135%;
+          background-size: cover;
+          margin-bottom: 8px;
+        }
+        h2 {
+          font-size: 20px;
+          font-family: $RocknRoll;
+          color: #222222;
+          margin-bottom: 8px;
+          font-weight: 100;
+          @media (max-width: 730px) {
+            font-size: 17px;
+          }
+          @media (max-width: 500px) {
+            font-size: 16px;
+          }
+        }
+        h3 {
+          font-size: 20px;
+          font-family: $RocknRoll;
+          font-weight: bolder;
+          @media (max-width: 730px) {
+            font-size: 17px;
+          }
+          @media (max-width: 500px) {
+            font-size: 16px;
+          }
+        }
+        .card-img1 {
+          @include imgdiv(
+            $bckg-img: url(../images/Gravitys_Fatal_Attraction.jpg)
+          );
+        }
+        .card-img2 {
+          @include imgdiv(
+            $bckg-img: url(../images/The_Irresistible_Attraction_of_Gravity.jpg)
+          );
+        }
+        .card-img3 {
+          @include imgdiv(
+            $bckg-img: url(../images/The_Little_Book_of_Black_Holes.jpg)
+          );
+        }
+        .card-img4 {
+          @include imgdiv($bckg-img: url(../images/Light_in_the_Darkness.jpg));
+        }
+      }
+    }
+  }
+}

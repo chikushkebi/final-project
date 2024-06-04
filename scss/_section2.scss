@@ -1,5 +1,5 @@
 .s-2 {
-  margin-bottom: 72px;
+  margin-bottom: 144px;
   h1 {
     font-size: 48px;
     font-family: $RocknRoll;
@@ -15,7 +15,7 @@
       margin-bottom: 20px;
     }
   }
-  .wrapper1 {
+  .wrapper {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
         background-position: center;
       }
       .card-img1 {
-        @include imgdiv;
+        @include imgdiv($bckg-img: url(../images/voyager.jpg));
       }
       .card-img2 {
         @include imgdiv($bckg-img: url(../images/black_hole2.jpg));
