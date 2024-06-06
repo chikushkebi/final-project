@@ -24,20 +24,28 @@
       //   border: 2px solid red;
       width: 100%;
       h1 {
-        font-size: 50px;
+        color: #222;
         font-family: $RocknRoll;
-        font-weight: bolder;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
         text-align: center;
-        color: #222222;
         @media (max-width: 650px) {
           color: white;
         }
       }
       p {
         font-family: $RocknRoll;
-        font-size: 20px;
+        color: #222;
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: $RocknRoll;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.48px;
         text-align: center;
-        color: #222222;
         @media (max-width: 650px) {
           color: white;
         }

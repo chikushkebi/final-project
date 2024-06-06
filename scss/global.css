@@ -203,9 +203,15 @@ header .flexdiv1 nav ul {
   gap: 50px;
 }
 header .flexdiv1 nav ul a {
-  font-family: "Roboto", sans-serif;
   color: #2935a7;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 80% */
+  letter-spacing: 0.4px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -439,11 +445,13 @@ footer h2 {
   width: 100%;
 }
 .s-1 .flexdiv2 .txt-div h1 {
-  font-size: 50px;
+  color: #222;
   font-family: "RocknRoll One", sans-serif;
-  font-weight: bolder;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
   text-align: center;
-  color: #222222;
 }
 @media (max-width: 650px) {
   .s-1 .flexdiv2 .txt-div h1 {
@@ -452,9 +460,16 @@ footer h2 {
 }
 .s-1 .flexdiv2 .txt-div p {
   font-family: "RocknRoll One", sans-serif;
-  font-size: 20px;
+  color: #222;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.48px;
   text-align: center;
-  color: #222222;
 }
 @media (max-width: 650px) {
   .s-1 .flexdiv2 .txt-div p {
@@ -472,11 +487,13 @@ footer h2 {
   margin-bottom: 144px;
 }
 .s-2 h1 {
-  font-size: 48px;
+  color: #222;
   font-family: "RocknRoll One", sans-serif;
-  font-weight: bold;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
   margin-bottom: 55px;
-  color: #222222;
 }
 @media (max-width: 863px) {
   .s-2 h1 {
@@ -515,10 +532,7 @@ footer h2 {
     padding-bottom: 47%;
   }
 }
-.s-2 .wrapper .card .card-img1,
-.s-2 .wrapper .card .card-img2,
-.s-2 .wrapper .card .card-img3,
-.s-2 .wrapper .card .card-img4 {
+.s-2 .wrapper .card div {
   width: 100%;
   padding-top: 100%;
   background-size: cover;
@@ -542,10 +556,15 @@ footer h2 {
   margin-top: 16px;
 }
 .s-2 .wrapper .card h2 a {
-  font-size: 24px;
+  color: #222;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
   font-family: "RocknRoll One", sans-serif;
-  font-weight: 300;
-  color: #222222;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 66.667% */
+  letter-spacing: 0.48px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -567,11 +586,13 @@ footer h2 {
   margin-bottom: 72px;
 }
 .s-3 .container h1 {
+  color: #222;
   font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
   font-family: "RocknRoll One", sans-serif;
-  font-weight: bold;
   margin-bottom: 12px;
-  color: #222222;
 }
 @media (max-width: 863px) {
   .s-3 .container h1 {
@@ -600,11 +621,10 @@ footer h2 {
   row-gap: 50px;
 }
 .s-3 .container .wrapper .card {
-  margin-top: 43px;
+  margin-top: 55px;
   width: 24%;
   height: 0;
   padding-bottom: 32%;
-  border: 2px solid red;
 }
 @media (max-width: 950px) {
   .s-3 .container .wrapper .card {
@@ -623,11 +643,14 @@ footer h2 {
   padding-top: 135%;
   background-size: cover;
   margin-bottom: 8px;
+  border: 1px solid #bdbdbd;
 }
 .s-3 .container .wrapper .card h2 {
+  color: #222;
   font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
   font-family: "RocknRoll One", sans-serif;
-  color: #222222;
   margin-bottom: 8px;
   font-weight: 100;
 }
@@ -642,9 +665,13 @@ footer h2 {
   }
 }
 .s-3 .container .wrapper .card h3 {
-  font-size: 20px;
+  color: #222;
   font-family: "RocknRoll One", sans-serif;
-  font-weight: bolder;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #222222;
 }
 @media (max-width: 730px) {
   .s-3 .container .wrapper .card h3 {
@@ -667,4 +694,192 @@ footer h2 {
 }
 .s-3 .container .wrapper .card .card-img4 {
   background-image: url(../images/Light_in_the_Darkness.jpg);
+}
+.s-3 .container .wrapper .card .card-img5 {
+  background-image: url(../images/Dark_Matter_and_Dark_Energy.jpg);
+}
+.s-3 .container .wrapper .card .card-img6 {
+  background-image: url(../images/The_4-Percent_Universe.jpg);
+}
+.s-3 .container .wrapper .card .card-img7 {
+  background-image: url(../images/THE_INVISIBLE_UNIVERSE.jpg);
+}
+.s-3 .container .wrapper .card .card-img8 {
+  background-image: url(../images/Northern_Lights.jpg);
+}
+.s-3 .container .wrapper .card .card-img9 {
+  background-image: url(../images/Pale_Blue_Dot.jpg);
+}
+.s-3 .container .wrapper .card .card-img10 {
+  background-image: url(../images/Cosmos-saganbook.jpg);
+}
+.s-3 .container .wrapper .card .card-img11 {
+  background-image: url(../images/Cosmic_connections.jpg);
+}
+.s-3 .container .wrapper .card .card-img12 {
+  background-image: url(../images/The_Euclide_Telescope.jpg);
+}
+.s-3 .container .button_div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+.s-3 .container .button_div button {
+  background-color: #2935a7;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  padding: 16px 15px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  cursor: pointer;
+}
+@media (max-width: 800px) {
+  .s-3 .container .button_div button {
+    font-size: 14px;
+    padding: 12px;
+  }
+}
+.s-3 .container .button_div button:hover {
+  background-color: #52beec;
+}
+
+.s-4 {
+  margin-top: 168px;
+}
+.s-4 .container .s-4_div-1 img {
+  width: 100%;
+  height: 512px;
+  margin-bottom: 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media (max-width: 850px) {
+  .s-4 .container .s-4_div-1 img {
+    height: 400px;
+  }
+}
+@media (max-width: 500px) {
+  .s-4 .container .s-4_div-1 img {
+    height: 200px;
+  }
+}
+.s-4 .container .s-4_div-1 h1 {
+  color: #000;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+@media (max-width: 800px) {
+  .s-4 .container .s-4_div-1 h1 {
+    font-size: 20px;
+  }
+}
+.s-4 .container .s-4_div-1 p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+@media (max-width: 800px) {
+  .s-4 .container .s-4_div-1 p {
+    font-size: 16px;
+  }
+}
+.s-4 .container .s-4_div-1 p span {
+  display: block;
+  margin-top: 10px;
+  text-indent: 15px;
+}
+.s-4 .container .voyagers-div {
+  margin-top: 42px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  row-gap: 47px;
+}
+.s-4 .container .voyagers-div .voyager1,
+.s-4 .container .voyagers-div .voyager2 {
+  width: 49%;
+}
+@media (max-width: 800px) {
+  .s-4 .container .voyagers-div .voyager1,
+  .s-4 .container .voyagers-div .voyager2 {
+    width: 100%;
+  }
+}
+.s-4 .container .voyagers-div .voyager1 img,
+.s-4 .container .voyagers-div .voyager2 img {
+  border: 1px solid #a7a7a7;
+  width: 100%;
+  height: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-bottom: 16px;
+}
+@media (max-width: 400px) {
+  .s-4 .container .voyagers-div .voyager1 img,
+  .s-4 .container .voyagers-div .voyager2 img {
+    height: 200px;
+  }
+}
+.s-4 .container .voyagers-div .voyager1 h1,
+.s-4 .container .voyagers-div .voyager2 h1 {
+  color: #000;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+@media (max-width: 800px) {
+  .s-4 .container .voyagers-div .voyager1 h1,
+  .s-4 .container .voyagers-div .voyager2 h1 {
+    font-size: 20px;
+  }
+}
+.s-4 .container .voyagers-div .voyager1 p,
+.s-4 .container .voyagers-div .voyager2 p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+@media (max-width: 800px) {
+  .s-4 .container .voyagers-div .voyager1 p,
+  .s-4 .container .voyagers-div .voyager2 p {
+    font-size: 16px;
+  }
+}
+.s-4 .container .voyagers-div .voyager1 p span,
+.s-4 .container .voyagers-div .voyager2 p span {
+  display: block;
+  text-indent: 15px;
+  margin-top: 5px;
 }/*# sourceMappingURL=global.css.map */

@@ -2,11 +2,13 @@
   margin-bottom: 72px;
   .container {
     h1 {
+      color: #222;
       font-size: 48px;
+      font-style: normal;
+      font-weight: 800;
+      line-height: normal;
       font-family: $RocknRoll;
-      font-weight: bold;
       margin-bottom: 12px;
-      color: #222222;
       @media (max-width: 863px) {
         font-size: 40px;
         margin-bottom: 5px;
@@ -22,11 +24,10 @@
       flex-wrap: wrap;
       row-gap: 50px;
       .card {
-        margin-top: 43px;
+        margin-top: 55px;
         width: 24%;
         height: 0;
         padding-bottom: 32%;
-        border: 2px solid red;
         @media (max-width: 950px) {
           width: 32%;
           padding-bottom: 43%;
@@ -40,11 +41,14 @@
           padding-top: 135%;
           background-size: cover;
           margin-bottom: 8px;
+          border: 1px solid #bdbdbd;
         }
         h2 {
+          color: #222;
           font-size: 20px;
+          font-style: normal;
+          font-weight: 400;
           font-family: $RocknRoll;
-          color: #222222;
           margin-bottom: 8px;
           font-weight: 100;
           @media (max-width: 730px) {
@@ -55,9 +59,13 @@
           }
         }
         h3 {
-          font-size: 20px;
+          color: #222;
           font-family: $RocknRoll;
-          font-weight: bolder;
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          color: #222222;
           @media (max-width: 730px) {
             font-size: 17px;
           }
@@ -83,6 +91,57 @@
         .card-img4 {
           @include imgdiv($bckg-img: url(../images/Light_in_the_Darkness.jpg));
         }
+        .card-img5 {
+          @include imgdiv(
+            $bckg-img: url(../images/Dark_Matter_and_Dark_Energy.jpg)
+          );
+        }
+        .card-img6 {
+          @include imgdiv($bckg-img: url(../images/The_4-Percent_Universe.jpg));
+        }
+        .card-img7 {
+          @include imgdiv($bckg-img: url(../images/THE_INVISIBLE_UNIVERSE.jpg));
+        }
+        .card-img8 {
+          @include imgdiv($bckg-img: url(../images/Northern_Lights.jpg));
+        }
+        .card-img9 {
+          @include imgdiv($bckg-img: url(../images/Pale_Blue_Dot.jpg));
+        }
+        .card-img10 {
+          @include imgdiv($bckg-img: url(../images/Cosmos-saganbook.jpg));
+        }
+        .card-img11 {
+          @include imgdiv($bckg-img: url(../images/Cosmic_connections.jpg));
+        }
+        .card-img12 {
+          @include imgdiv($bckg-img: url(../images/The_Euclide_Telescope.jpg));
+        }
+      }
+    }
+    .button_div {
+      display: flex;
+      justify-content: center;
+      // border: 2px solid red;
+      width: 100%;
+      margin-top: 100px;
+      button {
+        background-color: #2935a7;
+        color: white;
+        border: none;
+        border-radius: 12px;
+        font-family: $roboto;
+        font-size: 16px;
+        padding: 16px 15px;
+        transition: 0.5s;
+        cursor: pointer;
+        @media (max-width: 800px) {
+          font-size: 14px;
+          padding: 12px;
+        }
+      }
+      button:hover {
+        background-color: #52beec;
       }
     }
   }
