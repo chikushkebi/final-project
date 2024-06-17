@@ -1,5 +1,5 @@
 .s-4 {
-  margin-top: 168px;
+  margin-top: 120px;
   .container {
     .s-4_div-1 {
       img {
@@ -43,7 +43,7 @@
         }
       }
     }
-    .voyagers-div {
+    .parts-div {
       margin-top: 42px;
       display: flex;
       justify-content: space-between;
@@ -51,8 +51,8 @@
       width: 100%;
       //   border: 2px solid red;
       row-gap: 47px;
-      .voyager1,
-      .voyager2 {
+      .part1,
+      .part2 {
         width: 49%;
         @media (max-width: 800px) {
           width: 100%;
@@ -98,4 +98,7 @@
       }
     }
   }
+}
+.info_footer {
+  margin-top: 144px;
 }

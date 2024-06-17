@@ -754,7 +754,7 @@ footer h2 {
 }
 
 .s-4 {
-  margin-top: 168px;
+  margin-top: 120px;
 }
 .s-4 .container .s-4_div-1 img {
   width: 100%;
@@ -805,7 +805,7 @@ footer h2 {
   margin-top: 10px;
   text-indent: 15px;
 }
-.s-4 .container .voyagers-div {
+.s-4 .container .parts-div {
   margin-top: 42px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -821,18 +821,18 @@ footer h2 {
   width: 100%;
   row-gap: 47px;
 }
-.s-4 .container .voyagers-div .voyager1,
-.s-4 .container .voyagers-div .voyager2 {
+.s-4 .container .parts-div .part1,
+.s-4 .container .parts-div .part2 {
   width: 49%;
 }
 @media (max-width: 800px) {
-  .s-4 .container .voyagers-div .voyager1,
-  .s-4 .container .voyagers-div .voyager2 {
+  .s-4 .container .parts-div .part1,
+  .s-4 .container .parts-div .part2 {
     width: 100%;
   }
 }
-.s-4 .container .voyagers-div .voyager1 img,
-.s-4 .container .voyagers-div .voyager2 img {
+.s-4 .container .parts-div .part1 img,
+.s-4 .container .parts-div .part2 img {
   border: 1px solid #a7a7a7;
   width: 100%;
   height: 420px;
@@ -841,13 +841,13 @@ footer h2 {
   margin-bottom: 16px;
 }
 @media (max-width: 400px) {
-  .s-4 .container .voyagers-div .voyager1 img,
-  .s-4 .container .voyagers-div .voyager2 img {
+  .s-4 .container .parts-div .part1 img,
+  .s-4 .container .parts-div .part2 img {
     height: 200px;
   }
 }
-.s-4 .container .voyagers-div .voyager1 h1,
-.s-4 .container .voyagers-div .voyager2 h1 {
+.s-4 .container .parts-div .part1 h1,
+.s-4 .container .parts-div .part2 h1 {
   color: #000;
   font-family: "RocknRoll One", sans-serif;
   font-size: 24px;
@@ -857,13 +857,13 @@ footer h2 {
   margin-bottom: 8px;
 }
 @media (max-width: 800px) {
-  .s-4 .container .voyagers-div .voyager1 h1,
-  .s-4 .container .voyagers-div .voyager2 h1 {
+  .s-4 .container .parts-div .part1 h1,
+  .s-4 .container .parts-div .part2 h1 {
     font-size: 20px;
   }
 }
-.s-4 .container .voyagers-div .voyager1 p,
-.s-4 .container .voyagers-div .voyager2 p {
+.s-4 .container .parts-div .part1 p,
+.s-4 .container .parts-div .part2 p {
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
@@ -872,14 +872,118 @@ footer h2 {
   line-height: 20px; /* 111.111% */
 }
 @media (max-width: 800px) {
-  .s-4 .container .voyagers-div .voyager1 p,
-  .s-4 .container .voyagers-div .voyager2 p {
+  .s-4 .container .parts-div .part1 p,
+  .s-4 .container .parts-div .part2 p {
     font-size: 16px;
   }
 }
-.s-4 .container .voyagers-div .voyager1 p span,
-.s-4 .container .voyagers-div .voyager2 p span {
+.s-4 .container .parts-div .part1 p span,
+.s-4 .container .parts-div .part2 p span {
   display: block;
   text-indent: 15px;
   margin-top: 5px;
+}
+
+.info_footer {
+  margin-top: 144px;
+}
+
+.s-5 {
+  margin-top: 120px;
+}
+.s-5 .container .product h1 {
+  color: #222;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.s-5 .container .product .s-5_flexdiv {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 59px;
+}
+.s-5 .container .product .s-5_flexdiv .s-5_image {
+  border: 2px solid blue;
+}
+.s-5 .container .product .s-5_flexdiv .s-5_image img {
+  width: 610px;
+  height: 736px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.s-5 .container .product .s-5_flexdiv .info_and_button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+.s-5 .container .product .s-5_flexdiv .info_and_button .info {
+  border: 2px solid red;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.s-5 .container .product .s-5_flexdiv .info_and_button .info h3 {
+  color: #222;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+.s-5 .container .product .s-5_flexdiv .info_and_button .info h2 {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+.s-5 .container .product .s-5_flexdiv .info_and_button .button button {
+  padding: 12px 16px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border: none;
+  background-color: #31728e;
+  border-radius: 12px;
+  color: #fff;
+  -webkit-font-feature-settings: "clig" off, "liga" off;
+          font-feature-settings: "clig" off, "liga" off;
+  font-family: "RocknRoll One", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  letter-spacing: 0.32px;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.s-5 .container .product .s-5_flexdiv .info_and_button .button button:hover {
+  background-color: #568092;
 }/*# sourceMappingURL=global.css.map */
